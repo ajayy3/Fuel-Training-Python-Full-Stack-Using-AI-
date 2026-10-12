@@ -1,0 +1,24 @@
+import pandas as pd
+import numpy as np
+
+s = pd.Series([10, 20, 30], index=["a", "b", "c"])
+
+print(s)
+print(s["b"])
+print(s.mean())
+-----------------------------------------------------------------------------------------------
+import pandas as pd
+
+df = pd.DataFrame({
+    "name": ["riya", "aman", "neha", "karan", "isha", "rohan"],
+    "city": ["pune", "mumbai", "nashik", "pune", "mumbai", "nashik"]
+})
+
+print(df)
+---------------------------------------------------------------------------
+import pandas as pd
+df.to_csv("student.csv",index=False)
+df = pd.read_csv("C:/Users/AJAY/Downloads/student_practice_dataset (1).csv")
+print(df.shape)
+print(df.describe())
+-----------------------------------------------------------------------------------------------------------------
