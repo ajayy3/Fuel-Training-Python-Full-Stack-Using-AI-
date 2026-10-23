@@ -243,3 +243,4 @@
 #     for line in f:
 #         print(line.strip())
 # ------------------------------------------------------------------------------------------------ 
+# create a pandas DataFrame with 10 students

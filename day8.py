@@ -28,3 +28,4 @@
 # Ordered              A,B,C,or Low,Mid,High             map()
 # Unordered            Pune,Mumbai,Kolhapur              get_dummise()
 # Target/label         Pass/fail                         LabelEncoder() or map()
+
